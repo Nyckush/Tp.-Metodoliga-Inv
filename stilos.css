@@ -1,0 +1,11 @@
+*{
+    margin: 0; /*MARGIN : ES ESPACIOS ENTRE ELEMENTOS */
+    padding: 0; /*PADDING : ES EL RELLENO,GROSOR DEL ELEMENTO   */
+    color:white;  /* COLOR DE LA LETRA DEL ELEMENTO*/
+}
+
+body{
+
+    background-color: #202020; 
+}
+
