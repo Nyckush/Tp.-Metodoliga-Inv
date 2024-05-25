@@ -1,2 +1,2 @@
-# Tp.-Metodoliga-Inv
+# Tp.-Metodologia-Inv
 Proyecto :  Virtual IEES
