@@ -7,17 +7,28 @@
 body{
 
     background-color: #202020; 
+    
 }
 
 nav{
     display: flex;
     position: relative;
+    flex-direction: column;
     background-color: #151515;
-   height: 60px;
-  border-bottom: solid  rgba(13, 231, 46, 0.6) 1px;
-  align-items: center;
+  
+  border-bottom: solid  rgba(13, 231, 46, 0.3) 1px;
+   
  
 }
+
+.parte1{
+    display: flex;
+  
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
 
 .nombreWeb{
 
@@ -51,6 +62,11 @@ nav{
    color:  rgb(13, 231, 46);
 }
 
+.user{
+    display: flex;
+    align-items: center;
+  
+}
 
 .cajaMenu{
     position: relative;
@@ -86,7 +102,7 @@ nav{
 
 
 /*id del icono Menu---*/
-#Capa_1{
+#menu{
 
     width: 20px;
     height: 20px;
@@ -96,7 +112,7 @@ nav{
    
 }
 
-#Capa_1:hover{
+#menu:hover{
     fill: rgb(13, 231, 46);
    transition: 0.4s;
    z-index: 800;
@@ -157,4 +173,172 @@ nav{
 
 
 }
+
+
+/* PARTE DE ABAJO PARTE 2 Header*/
+
+
+.parte2{
+
+    display: flex;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+.opciones{
+    list-style: none;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.opciones:hover{
+    background-color: rgba(75, 75, 75, 0.5);
+    cursor: pointer;
+    transition: 0.3s;
+    border: solid 1px rgba(13, 231, 46, 0.6);
+    
+  
+}
+
+
+/*ICONOS*/
+
+
+
+#libro{
+    width: 25px;
+    height: 25px;
+    fill: white;
+    padding-right: 5px;
+    
+}
+#identificacion{
+
+    width: 25px;
+    height: 25px;
+    fill: white;
+    padding-right: 5px;
+}
+#carpetas{
+    width:  25px;
+    height: 25px;
+    fill: white;
+    padding-right: 5px;
+}
+
+/*---- MENU -----*/
+
+#sect1{
+position: relative;
+margin-top: 5px;
+
+
+
+}
+
+#contentMenu{
+
+    position: absolute;
+    left: -355px ;
+    padding-top: 20px;
+    width: 350px;
+    background-color: #15151550;
+    border-left: dotted rgba(255, 255, 255, 0.342) 1px;
+    border-radius: 10px;
+    border-right: dotted rgba(255, 255, 255, 0.342) 1px;
+    border-bottom:dotted rgba(255, 255, 255, 0.342) 1px ;
+    
+
+}
+
+.perfilIes{
+
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+     padding-bottom: 25px;
+     
+   
+}
+
+
+
+.perfilIes p {
+
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nuevoHorizonte{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.ubicacion{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+     width: 300px;
+    border-bottom: 1px rgba(255, 255, 255, 0.342) solid;
+    font-size: 15px; 
+}
+
+.ubicacion a {
+    margin-right: 5px;
+}
+#iconUbi{
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+#iconUbi:hover{
+    fill: rgb(13, 231, 46);
+    background-color: rgba(75, 75, 75, 0.5);
+  
+
+
+}
+
+.cajaServicios{ 
+    padding-top: 20px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.servicios{
+    margin-left: 10px;
+    border-radius: 15px;
+    list-style: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 18px;
+    padding-left: 15px;
+
+   
+}
+
+.servicios:hover{
+
+    color: rgb(13, 231, 46);
+ 
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgba(75, 75, 75, 0.3);
+}
+
+
 
