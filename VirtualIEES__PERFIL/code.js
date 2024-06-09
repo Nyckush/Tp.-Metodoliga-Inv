@@ -93,9 +93,77 @@ menu.onclick=mostrarMenu;
 
 
 
+//cambio de estado //
+let formularioEstado = document.getElementById("formularioEstado");
+let sumaIcon = document.getElementById("iconoSuma");
+let cajaDeEstado = document.getElementById("cajaEscribirEstado");
+let inputEstado = document.getElementById("userEscribiendo");
+let cambioEstado = document.getElementById("btnCambiar");
+let  PrimerEstado = document.getElementById("estadoPredefinido");
+
+
+
+
+
+
+function aparecerCajaEstado () {
+    cajaDeEstado.style.visibility="visible";
+    inputEstado.focus();
+    
+}
 
 
  
+
+
+function guardarValor () {
+    
+  PrimerEstado.textContent=inputEstado.value;
+  cajaDeEstado.style.visibility="hidden";
+
+}
+
+formularioEstado.addEventListener("submit",function(event){
+    event.preventDefault();
+    guardarValor();
+})
+
+
+    cambioEstado.onclick= guardarValor;
+   
+sumaIcon.addEventListener("click",aparecerCajaEstado);
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
 
 
 
